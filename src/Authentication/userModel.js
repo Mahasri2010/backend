@@ -9,31 +9,7 @@ const UserSchema = mongoose.Schema(
         password:{
             type:String,
             required:true
-        },
-        firstname:String,
-
-        secondname:String,
-
-        joined_date:Date,
-
-        birth_date:Date,
-
-        admin:{
-            type:Boolean,
-            required:true
-        },
-        manager:{
-            type:Boolean,
-            required:true
-        },
-        team_leader:{
-            type:Boolean,
-            required:true
-        },
-        employee:{
-            type:Boolean,
-            required:true
-        }
+        }     
     },
     {
         timestamps:true

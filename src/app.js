@@ -8,7 +8,7 @@ import CategoryRouter from './Category/categoryRouter.js'
 import CustomerRouter from './Customer/customerRouter.js'
 import StockRouter from './Stock/stockRouter.js'
 import UserRouter from './Authentication/userRouter.js'
-import PaymentRouter from './Payment/payRouter.js'
+
 
 
 
@@ -27,7 +27,7 @@ app.use('/category/',CategoryRouter)
 app.use('/customer/',CustomerRouter)
 app.use('/stock/',StockRouter)
 app.use('/user/',UserRouter)
-app.use('/pay/',PaymentRouter)
+
 
 
 

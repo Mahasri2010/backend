@@ -14,6 +14,11 @@ const BillSchema = mongoose.Schema(
             type:mongoose.Schema.Types.ObjectId,
             ref:"Customer"
         },
+        bill_status:{
+           type:String,
+           default:'unpaid'
+
+        },
         bill_amount:Number
     }
 ) 
